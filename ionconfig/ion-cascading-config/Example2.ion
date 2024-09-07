@@ -1,0 +1,25 @@
+Namespace::Example2::{
+    prioritizedCriteria: [
+        criteria1,
+        criteria2,
+        criteria3
+    ]
+}
+Example2::{
+    // verify different criteria OR'd together works normally
+    myField2:1,
+    'criteria1-true':
+    'criteria2-true'::
+    'criteria3-true'::{
+        myField2: 2
+    },
+
+    // verify different criteria OR'd together works in a list
+    listExample:[
+      'criteria1-true'::
+      'criteria2-true'::
+      'criteria3-true'::{
+          value: 3
+      }
+    ]
+}

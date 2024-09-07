@@ -1,0 +1,56 @@
+Namespace::Products::{
+    prioritizedCriteria:[
+        websiteFeatureGroup,
+        department,
+        category,
+        subcategory,
+        sku
+    ]
+}
+
+Products::{
+    layout: [
+        brand,
+        title,
+        customerReviews,
+        {
+            name: "price",
+            template: "common",
+            'websiteFeatureGroup-wireless': {
+                template: "wireless" // override the standard template for wireless
+            },
+            modules: [
+                "businessPricing",
+                "rebates",
+                "quantityPrice",
+                "points",
+                'department-111'::{
+                    value: "globalStoreIfd"
+                },
+                'department-222'::{
+                    value: "priceTax"
+                },
+                'department-333'::{
+                    value: "promoMessaging"
+                },
+                'category-444'::'category-555'::{
+                    'websiteFeatureGroup-wireless': {
+                        values: [
+                            {
+                                name: "promoMessaging",
+                                template: "common",
+                                'subcategory-1234': {
+                                    template: "customTemplate1"
+                                },
+                                'subcategory-2345': {
+                                    template: "customTemplate2"
+                                }
+                            },
+                            "samplingBuyBox"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

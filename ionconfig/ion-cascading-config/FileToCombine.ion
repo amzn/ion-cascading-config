@@ -1,0 +1,10 @@
+Skus::{
+    field3 : "bar",
+    'sku-B0000SKU3':{
+        field3: "foo"
+    },
+    'category-value-has-multiple-hyphens':{
+        field3: "fib"
+    },
+    'category-thisShouldNotAffectAnythingBecauseItIsEmpty':{}
+}

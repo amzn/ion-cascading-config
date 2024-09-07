@@ -1,0 +1,23 @@
+// specifications from the class documentation included here to guarantee they are correct
+Namespace::Example::{
+    prioritizedCriteria : [
+        field1,
+        field2,
+        field3
+    ]
+}
+Example::{
+    myField : 1,
+    'field1-true' : {
+        myField : 2,
+        'field2-true' : {
+            myField : 3,
+            'field3-true' : {
+                myField : 4
+            }
+        }
+    },
+    'field2-true' : {
+        myField : 5
+    }
+}

@@ -1,0 +1,163 @@
+Namespace::ManyCriteria::{
+  prioritizedCriteria : [
+    criteria0,
+    criteria1,
+    criteria2,
+    criteria3,
+    criteria4,
+    criteria5,
+    criteria6,
+    criteria7,
+    criteria8,
+    criteria9,
+    criteria10,
+    criteria11,
+    criteria12,
+    criteria13,
+    criteria14,
+    criteria15,
+    criteria16,
+    criteria17,
+    criteria18,
+    criteria19,
+    criteria20,
+    criteria21,
+    criteria22,
+    criteria23,
+    criteria24,
+    criteria25,
+    criteria26,
+    criteria27,
+    criteria28,
+    criteria29,
+    criteria30,
+    criteria31,
+    criteria32,
+    criteria33,
+    criteria34,
+    criteria35,
+    criteria36,
+    criteria37,
+    criteria38,
+    criteria39,
+    criteria40,
+    criteria41,
+    criteria42,
+    criteria43,
+    criteria44,
+    criteria45,
+    criteria46,
+    criteria47,
+    criteria48,
+    criteria49,
+    criteria50
+  ]
+}
+
+ManyCriteria::{
+  "criteria0-xxx": {
+    "criteria1-xxx": {
+      "criteria2-xxx": {
+        "criteria3-xxx": {
+          "criteria4-xxx": {
+            "criteria5-xxx": {
+              "criteria6-xxx": {
+                "criteria7-xxx": {
+                  "criteria8-xxx": {
+                    "criteria9-xxx": {
+                      "criteria10-xxx": {
+                        "criteria11-xxx": {
+                          "criteria12-xxx": {
+                            "criteria13-xxx": {
+                              "criteria14-xxx": {
+                                "criteria15-xxx": {
+                                  "criteria16-xxx": {
+                                    "criteria17-xxx": {
+                                      "criteria18-xxx": {
+                                        "criteria19-xxx": {
+                                          "criteria20-xxx": {
+                                            "criteria21-xxx": {
+                                              "criteria22-xxx": {
+                                                "criteria23-xxx": {
+                                                  "criteria24-xxx": {
+                                                    "criteria25-xxx": {
+                                                      "criteria26-xxx": {
+                                                        "criteria27-xxx": {
+                                                          "criteria28-xxx": {
+                                                            "criteria29-xxx": {
+                                                              "criteria30-xxx": {
+                                                                "criteria31-xxx": {
+                                                                  "criteria32-xxx": {
+                                                                    "criteria33-xxx": {
+                                                                      "criteria34-xxx": {
+                                                                        "criteria35-xxx": {
+                                                                          "criteria36-xxx": {
+                                                                            "criteria37-xxx": {
+                                                                              "criteria38-xxx": {
+                                                                                "criteria39-xxx": {
+                                                                                  "criteria40-xxx": {
+                                                                                    "criteria41-xxx": {
+                                                                                      "criteria42-xxx": {
+                                                                                        "criteria43-xxx": {
+                                                                                          "criteria44-xxx": {
+                                                                                            "criteria45-xxx": {
+                                                                                              "criteria46-xxx": {
+                                                                                                "criteria47-xxx": {
+                                                                                                  "criteria48-xxx": {
+                                                                                                    "criteria49-xxx": {
+                                                                                                      myValue:123
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "criteria50-xxx": {
+    myValue:456
+  }
+}
+

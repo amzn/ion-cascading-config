@@ -1,0 +1,89 @@
+Namespace::NamespacedIonConfigManagerTest::{
+    prioritizedCriteria : [
+        realm,
+        domain
+    ]
+}
+NamespacedIonConfigManagerTest::{
+    // setup some global values which we will override later
+    stringToFind : "Global Default String",
+    symbolToFindAsString : 'Global Default Symbol',
+    intToFind : 12345,
+    doubleToFind : 45.67,
+    dateToFind : 2018-01-02T01:23:45.678Z,
+    booleanToFind : true,
+    classToFind : {
+        name : "Alice",
+        age : 99
+    },
+    listToFind : [
+        "String 1",
+        "String 2",
+        "String 3",
+        "String 4",
+        "String 5"
+    ],
+    mapToFind : {
+        field1 : 1,
+        field2 : 2,
+        field3 : 3,
+        field4 : 4,
+        field5 : 5,
+    },
+    deepMapToFind : {
+        field1 : {
+            subField : [
+                1234,
+                5678
+            ]
+        }
+    },
+    // test has each value overriden
+    'domain-test' : {
+        stringToFind : "Global Default String Test",
+        symbolToFindAsString : 'Global Default Symbol Test',
+        intToFind : 123456,
+        doubleToFind : 45.678,
+        dateToFind : 2018-01-02T01:23:45.679Z,
+        classToFind : {
+            name : "Alice Test",
+            age : 999
+        },
+        listToFind : [
+            "String 1",
+            "String 2",
+            "String 3",
+            "String 4",
+            "String 5",
+            "String 6",
+        ],
+        mapToFind : {
+            field1 : 1,
+            field2 : 2,
+            field3 : 3,
+            field4 : 4,
+            field5 : 5,
+            field6 : 6,
+        },
+        deepMapToFind : {
+            field1 : {
+                subField : [
+                    1234,
+                    5679
+                ]
+            }
+        },
+        // override for test + USAmazon
+        'realm-USAmazon' : {
+            listToFind : [
+            ],
+            booleanToFind : false
+        }
+    },
+    'realm-USAmazon' : {
+        listToFind : [
+            "Contains 1 value"
+        ],
+        booleanToFind : null
+    }
+}

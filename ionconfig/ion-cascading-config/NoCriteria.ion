@@ -1,0 +1,6 @@
+Namespace::NoCriteriaExample::{
+    prioritizedCriteria : []
+}
+NoCriteriaExample::{
+    myField : 123
+}

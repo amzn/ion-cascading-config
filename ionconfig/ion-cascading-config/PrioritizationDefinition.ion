@@ -1,0 +1,58 @@
+Namespace::Skus::{
+    prioritizedCriteria: [
+        category,
+        seller,
+        sku,
+        featureFlag
+    ]
+}
+Skus::{
+    field1: 123,
+    'seller-1234': {
+        field1: "hello",
+        'category-001234321': {
+            field1: 35.6
+        }
+    },
+    'category-001234321':
+    'category-001237865'::{
+        field1: 12,
+        'sku-B0000SKU1': {
+            field1: {
+                subField: 1234,
+                'seller-123231': {
+                    subStruct: {
+                        subSubField: 432432
+                    }
+                }
+            },
+            field2: [ 404939 ]
+        },
+        'sku-B0000SKU2': {
+            field1: {
+                subField: 1234398
+            },
+            field2: [
+                4049394,
+                'seller-123231'::{
+                    values: [203897432]
+                }
+            ],
+            'featureFlag-EXAMPLE_12345:T1': {
+                field2: [ 12345 ]
+            },
+            '!featureFlag-EXAMPLE_12345:T1': {
+                notConditionedfeatureFlagExample: "Hello!"
+            }
+        },
+        '!sku-B0000SKU3': {
+            notExample: "not B0000SKU3"
+        }
+    },
+    'seller-2345': {
+        specialField1: "special1"
+    },
+    'seller-3456': {
+        specialField2: "special2"
+    }
+}
