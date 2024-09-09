@@ -1,0 +1,13 @@
+Namespace::exampleNamespace:: {
+    prioritizedCriteria: [
+        domain
+    ]
+}
+
+exampleNamespace::{
+    myValue: 17,
+
+    'domain-prod':{
+        myValue: 42
+    }
+}
